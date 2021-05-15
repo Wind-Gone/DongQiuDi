@@ -1,0 +1,16 @@
+.match-h1 {
+    color: #fafafa;
+    letter-spacing: 0;
+    text-align: center;
+    text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #666, 0px 5px 0px #555, 0px 6px 0px #444, 0px 7px 0px #333, 0px 8px 7px #001135;
+}
+
+.match-content {
+    width: "80%";
+    margin: "0 auto";
+    margin-top: 20;
+    opacity: 0;      /*实先规定文字的状态是不显示的*/
+    animation: fade-in 2s ease 0s 1; 
+    animation-fill-mode:forwards;
+}
+

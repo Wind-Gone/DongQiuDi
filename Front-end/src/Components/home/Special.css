@@ -1,0 +1,22 @@
+#special {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+#special h3 {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 1.6em;
+    font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+    font-weight: 600;
+}
+
+#special .card {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+}

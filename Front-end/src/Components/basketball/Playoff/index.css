@@ -1,0 +1,18 @@
+@keyframes fade-in{  
+  0%{ opacity: 0;}
+  100%{opacity:1;}
+}
+
+.site-page-header-ghost-wrapper {
+  padding: 24px;
+  opacity: 0;      /*实先规定文字的状态是不显示的*/
+    animation: fade-in 2s ease 0s 1; 
+    animation-fill-mode:forwards;
+
+  background-color: #f5f5f5;
+}
+
+.site-page-header-ghost-wrapper .page-header{
+  width:80%;
+  margin: auto;
+}
